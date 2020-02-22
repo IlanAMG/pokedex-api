@@ -1,0 +1,30 @@
+.container-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.container-btn button {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border: none;
+    width: 45%;
+    height: 100%;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: rgb(255, 240, 103);
+    color: rgb(10, 84, 243);
+    border: 1px solid rgb(0, 22, 223);
+    padding: 10px;
+    transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    transform: scale(0.9, 0.9);
+}
+
+.container-btn button:hover {
+    background-color: rgb(255, 228, 72);
+    transform: translateZ(0) scale(1 , 0.99);
+}
